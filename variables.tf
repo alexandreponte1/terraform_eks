@@ -25,3 +25,11 @@ variable "auto_scale_options" {
     desired = 2
   }
 }
+
+
+
+# variable "aws_profile" {
+#   type        = string
+#   description = " "
+#   default     = "playground"
+# }
