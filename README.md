@@ -1,1 +1,1 @@
-# aws eks --region us-east-1 update-kubeconfig --name k8s-demo
+# aws eks --region us-east-1 update-kubeconfig --name k8s-demo --profile youprofile

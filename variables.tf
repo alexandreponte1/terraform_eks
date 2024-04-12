@@ -14,8 +14,11 @@ variable "k8s_version" {
 
 variable "nodes_instances_sizes" {
   default = [
-    "t3.large"
+    "t3.large" #8GB
   ]
+  # instance_types = ["t2.micro"] mem 1GB
+  # instance_types = ["t2.small"] mem 2GB
+  # instance_types = ["t2.small"] mem 4GB
 }
 
 variable "auto_scale_options" {
@@ -28,8 +31,8 @@ variable "auto_scale_options" {
 
 
 
-# variable "aws_profile" {
-#   type        = string
-#   description = " "
-#   default     = "playground"
-# }
+variable "aws_profile" {
+  type        = string
+  description = " "
+  default     = "playground"
+}
