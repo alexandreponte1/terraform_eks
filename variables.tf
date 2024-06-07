@@ -8,7 +8,7 @@ variable "aws_region" {
 
 
 variable "k8s_version" {
-  default = "1.25"
+  default = "1.24"
 }
 
 
@@ -34,5 +34,5 @@ variable "auto_scale_options" {
 variable "aws_profile" {
   type        = string
   description = " "
-  default     = "playground"
+  default     = "default"
 }
